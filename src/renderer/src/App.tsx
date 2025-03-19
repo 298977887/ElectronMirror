@@ -30,7 +30,7 @@ function App(): JSX.Element {
           
           {/* 音频可视化组件 */}
           <AudioVisualizer 
-            onError={(message: string) => setErrorMessage(message)}
+            //onError={(message: string) => setErrorMessage(message)}
           />
         </div>
       </div>
